@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Snapshot Manager",
+  "version": "1.0",
+  "description": "Save current tabs, add descriptions, and organize collections.",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Snap Tabs"
+  }
+}

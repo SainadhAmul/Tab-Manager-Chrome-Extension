@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <title>Tab Snapshot Manager</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Tab Snapshot</h1>
+        <button id="view-collections-btn" class="secondary-btn">Saved Collections</button>
+    </div>
+
+    <div id="current-tabs-view" class="view active">
+        <div class="collection-meta">
+            <input type="text" id="collection-title" placeholder="Collection Title (e.g., Project X Research)">
+            <textarea id="collection-desc" placeholder="Optional description for this collection..."></textarea>
+        </div>
+        
+        <h2>Current Tabs</h2>
+        <div id="tabs-list">
+            <!-- Tabs will be dynamically inserted here -->
+        </div>
+
+        <button id="save-collection-btn" class="primary-btn">Save Collection</button>
+    </div>
+
+    <div id="saved-collections-view" class="view">
+        <div class="toolbar">
+            <button id="back-btn" class="secondary-btn">← Back</button>
+            <h2 style="margin: 0;">Your Collections</h2>
+        </div>
+        <div id="collections-list">
+            <!-- Saved collections inserted here -->
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
