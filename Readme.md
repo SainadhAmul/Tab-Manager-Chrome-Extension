@@ -17,3 +17,5 @@ Based on user feedback, the following features are integrated into the design:
 - **Restore:** Click "Restore" on a saved collection and verify it opens correctly.
 - **Export:** Click "Export" and examine the downloaded file.
 - **Persistence:** Close the popup, reopen it, and confirm the data can be viewed in the "Saved Collections" area.
+
+[![Watch the video]](https://youtu.be/U6TfcZChd9c)
