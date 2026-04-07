@@ -18,4 +18,4 @@ Based on user feedback, the following features are integrated into the design:
 - **Export:** Click "Export" and examine the downloaded file.
 - **Persistence:** Close the popup, reopen it, and confirm the data can be viewed in the "Saved Collections" area.
 
-[![Watch the video]](https://youtu.be/U6TfcZChd9c)
+[![Demo](https://img.youtube.com/vi/U6TfcZChd9c/0.jpg)](https://www.youtube.com/watch?v=U6TfcZChd9c)
